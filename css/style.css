@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "psn";
+    src: url(../font/SST-Light.woff2);
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Reglas comunes a todos los elementos en body 
+margin:0 para quitar ese pequeño enmarcado blanco indeseable
+*/
+html,body {
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-family: "psn";
+    overflow: hidden;
+}
+header{
+    height: 5%;
+    background-color: #000000;
+}
+main{
+    height: 95%;
+    background-image: url(../img/fondo.jpg);
+    text-align: center;
+}
+/* flex orientación row */
+.row {
+    display: flex;
+}
+/*Colocación horizontal*/
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-end{
+    justify-content: end;
+    padding: 12px 20px 0 0;
+}
+/*Colocación vertical*/
+.align-items-center{
+    align-items: center;
+}
+/*Texto alineado al centro*/
+.text-center{
+    text-align: center;
+}
+/*Texto alineado a la derecha*/
+.text-end{
+    text-align: right;
+}
+.h-100{
+    height: 100%;
+}
+.col-50{
+    width: 50%;
+}
+.bg-light{
+    background-color: rgb(255, 255, 255, .5);
+}
+h2{
+    color: #000000;
+}
+.box-form{
+    width: 70%;
+    background-color: rgb(221, 225, 229, .7);
+    border: 0;
+    padding: 14px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.box-form::placeholder {
+    font-size: 18px;
+    color: rgb(76, 79, 83);
+}
+h4{
+    color: #1e69bf;
+}
+.btn{
+    border: 0;
+}
+.btn-grey{
+    border-radius: 25px;
+    background-color: rgb(216, 217, 219);
+    color: #1e69bf;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn-blue{
+    width: 70%;
+    border-radius: 20px;
+    background-color: #2e4a70;
+    color: #b3b5b9;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 0 12px 0;
+}
+button{
+    width: 70%;
+}
+a {
+    color: #0068bd;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.content{
+    width: 100%;
+}
+
+
